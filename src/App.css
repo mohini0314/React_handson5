@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+
+}
+.App-header {
+  background-image: linear-gradient(rgba(44, 189, 162, 0.808), rgb(220, 173, 112),rgb(132, 64, 98));
+  min-height: 150vh;
+  min-width:10vh;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.head2{
+  position: absolute;
+  top: 600px;
+  left: 400px;
+
+}
+.Pure{
+  position: absolute;
+  top: 700px;
+  left: 300px;
+  width: 800px;
+  background-color: antiquewhite;
+  border: 2px solid sandybrown;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 600px){
+  .App-header {
+    background-image: linear-gradient(rgb(208, 239, 129), rgb(43, 89, 95),rgb(159, 27, 97));
+  }
+  .Higher-Order{
+    font-size: 20px;
+  }
+
+
+
+
+
+}
